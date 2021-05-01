@@ -1,4 +1,4 @@
-package edu.ada.service;
+package edu.ada.micronaut;
 
 import io.micronaut.runtime.Micronaut;
 

@@ -19,7 +19,7 @@
     <!-- If you are building with JDK 9 or higher, you can uncomment the lines below to set the release version -->
     <!-- <release.version>8</release.version> -->
     <micronaut.version>2.5.0</micronaut.version>
-    <exec.mainClass>edu.ada.service.Application</exec.mainClass>
+    <exec.mainClass>edu.ada.micronaut.Application</exec.mainClass>
     <micronaut.runtime>netty</micronaut.runtime>
   </properties>
 
@@ -115,7 +115,7 @@
             </path>
           </annotationProcessorPaths>
           <compilerArgs>
-            <arg>-Amicronaut.processing.group=edu.ada.service</arg>
+            <arg>-Amicronaut.processing.group=edu.ada.micronaut</arg>
             <arg>-Amicronaut.processing.module=stockprice</arg>
           </compilerArgs>
         </configuration>
