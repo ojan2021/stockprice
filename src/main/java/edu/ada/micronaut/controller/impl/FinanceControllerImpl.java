@@ -14,7 +14,6 @@ import java.util.Arrays;
 import java.util.List;
 
 @Controller("/finance")
-//@Secured(SecurityRule.IS_AUTHENTICATED)
 
 public class FinanceControllerImpl implements FinanceController {
     protected static Logger logger = LoggerFactory.getLogger(FinanceControllerImpl.class);
@@ -24,7 +23,6 @@ public class FinanceControllerImpl implements FinanceController {
 
     @Override
     @Get
-//    @Secured("ADMIN")
     @Produces(MediaType.APPLICATION_JSON)
     public Object getFinancialData(@QueryValue("provider") String financial_data_provider_name,
                                    @QueryValue("stock_index") String stock_index) {

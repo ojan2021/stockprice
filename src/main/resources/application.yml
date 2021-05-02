@@ -1,12 +1,3 @@
 micronaut:
   application:
     name: stockprice
-#  security:
-#    enabled: true
-#  credentials:
-#    users:
-#      orhan: qwerty
-#      peter: parker
-#    roles:
-#      orhan: ADMIN
-#      peter: VIEW
