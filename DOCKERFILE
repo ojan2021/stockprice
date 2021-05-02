@@ -1,0 +1,4 @@
+FROM openjdk:8-jdk-alpine
+MAINTAINER ojan2021
+COPY target/docker-stockprice-0.1.jar stockprice-0.1.jar
+ENTRYPOINT ["java","-jar","/stockprice-0.1.jar"]
