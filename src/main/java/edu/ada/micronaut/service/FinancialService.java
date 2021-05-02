@@ -1,5 +1,5 @@
 package edu.ada.micronaut.service;
 
 public interface FinancialService {
-    Object getFinancialData();
+    Object getFinancialData(String financial_data_provider);
 }
